@@ -7,60 +7,95 @@ autosize: true
 Outline
 ========================================================
 
-- Intro to Adaptive Design
+- Intro to Adaptive Design (AD)
 - Intro to Group Sequential Design
 - Intro to Bayesian Clinical Trial
+  - Bayesian Clinical Trial for very rare disease
+- Practical Advice for ADs
 - Conclusion
 - Quiz
 
 Adaptive Design
 ========================================================
 - What is adaptive design?
+
   <!--- Add the flow chart from Adaptive Design Paper here-->
-  - results from interim data analyses are used to modify the ongoing trial, without undermining its integrity or validity <!--- definiing characteristic of all ADs--->
+
+  - results from interim data analyses are used to modify the ongoing trial, without undermining its integrity or validity 
+  
+  <!--- definiing characteristic of all ADs--->
+  
   - pre-specifed changes can be made based on analyses of accumulating data whilst maintaining the _validity_ and _integrity_ of the trial
+  
   <!--- Possible expantion to definition of validity and integrity--->
+  <!--- Merge the two bullet points --->
+
+
   - __no unplanned ad hoc modifications__
 
 Adaptive Design
 ========================================================  
 - why we want to use adaptive design?
+  
+  <!--- the main premise for adaptive design is that increase trials' flexibility and hence make the trial more efficient (less patient, faster results)--->
+  
   - __Flexibility__ \(\Rightarrow\) efficient trials
-  - bullet 2
 - When to use adaptive design?
-  - Can be used in Phase I - Phase III
-  - bullet 2
-- How to use adaptive design?
-  - It is possible to use in combination
-
-- What design we talked about are adaptive desig?
-  - CRM
-  - E-WOC
+  - Used in Phase I - Phase III
 
 Adaptive Design
 ========================================================  
   
 - What for? Include but are not limited to
-  - refinning the sample size <!--- Add the desing here--->
+  - refinning the sample size 
+  
+  <!--- Add specific desigs here, and re-ordering the items --->
+  
   - Abandoning treatments or doeses
   - Changing the allocation ratio of patients to trail arms
   - identifying patients most likely to benefit and focusing recruitment efforts
 on them
   - stopping the whole trial at an early stage for success or lack of efficacy
   - rapid transitioning between phases [Seamless phase I/II, Seamless phase II/III]
-
-
-
-
-
-
   
+  <!---
+    - What design we talked about are adaptive desig?
+    - CRM
+    - E-WOC
+  --->
 
+  <!--- Mention: tt is possible to use a combination of the technique in one trial--->
+
+  <!--- Transitioning sentence: The first half of the class, we will focus on the group sequential design here --->
 
 Group Sequential Design
 ========================================================
  <!--- In relationship to Adaptive design: -->
- - _Group Sequential_ \(\in\) _Adpative Design_
+ - Often used in Phase III, placebo-controled trial
+ - Extension from the the sequential design
+ - Started with two treatment 
+ - Making Decision
+
+Group Sequential Design
+========================================================
+ <!--- In relationship to Adaptive design: -->
+ 1. Recruit a group of people with pre-planned sample size
+ 2. Cumlatively analyze the data from the group(s) collected
+ 3. Making A Decision
+    - Early Stop
+    - Continue
+    - Continue with modification of the design
+    - End of the study as planned
+  4. Start from
+ 
+Options for Decisions
+==========================================================
+ 
+ having groups of participants, and periodically test the hypothesis when the data for a group is ready, and decide if proceed.
+ - Pre-define the maximum number of group
+ - an extention of sequential design where each pair
+ - Initially for two treatments
+ - Spending the type-I error $$ in each interium analysis
 
 Group Sequential
 ========================================================
@@ -82,22 +117,30 @@ Group Sequential
 
 Group Sequential
 ========================================================
+
+<!--- Transitioning sentence: Adaptive Design also has its own issues need to further address. Most--->
 
 Issues of Adaptive Design
 ========================================================
+- Non-statistical issues
+  - the possibly of introducing optional bias
+  
+  <!--- e.g.the interium analysis for block design to check balance--->
+  
+  - Explaining the heterogeneity between the stages of an AD trial
+
 - statistical issues
   - biased estimation using navie methods for fixed design trials
+
   <!--- early stop fior futility, biased upwards--->
   <!--- add Table 2 in adaptive design here--->
+
   - incorrect converage for confidence interval
   - p-value
   - Type I error rate
   - Multiple hypothesis testing: also report frequentist charactereistics
   - Bayesina statistics
-- Non-statistical issues
-  - the possibly of introducing optional bias
-  <!--- the interium analysis for block design to check balance--->
-  - Explaining the heterogeneity between the stages of an AD trial
+
 
 Bayesian Clinical Trial
 ========================================================

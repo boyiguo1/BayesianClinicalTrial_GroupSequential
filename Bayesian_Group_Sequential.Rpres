@@ -60,26 +60,20 @@ on them ( _population enrichment_ )
 Group Sequential Design
 ========================================================
 - What is group sequential design
-
-- Some charateristics
- <!--- In relationship to Adaptive design: -->
- - Often used in Phase III, placebo-controled trial
- - Extension from the the sequential design
- - Started with two treatment 
- - Making Decision
-
+  - recruit participants by pre-planned stages (groups)
+  - cumulative assessment after each stage finished using pre-planned significance levels/ critical values
+  - possible early stop due to efficacy or futility
+  - if not stop early, guarenteed overal type I error and power
+  
+<!--- Periodically examine the data according to a pre-specified plan (where periodically has been pre-planed with pre-planed significance level) to possibly make decision about the efficacy of some treatment without inflating overall type I error and losing power---->
+  
 Group Sequential Design
-========================================================
- <!--- In relationship to Adaptive design: -->
- 1. Recruit a group of people with pre-planned sample size
- 2. Cumlatively analyze the data from the group(s) collected
- 3. Making A Decision
-    - Early Stop
-    - Continue
-    - Continue with modification of the design
-    - End of the study as planned
-  4. Start from
- 
+======================================================== 
+
+<div align="center">
+  <img src="Plots/GS_plot1.jpeg" width=800 height=600>
+</div>
+
 Options for Decisions
 ==========================================================
  
@@ -88,6 +82,26 @@ Options for Decisions
  - an extention of sequential design where each pair
  - Initially for two treatments
  - Spending the type-I error $$ in each interium analysis
+
+
+
+Group Sequential Design
+========================================================
+- History
+  - Improvement of sequential design by Peter Armitage (1975)
+
+- When to use
+ - often used in Phase III, when you need a lot of participants/ money
+ - focus on studying efficacy
+ 
+ Group Sequential Design
+========================================================
+- Where is the catch
+  - Overall sample size is larger than that of a fixed design controling effect size, type I error and power
+  - Useless when observed effect size is smaller than that assumed in the inital study design
+
+
+
 
 Group Sequential
 ========================================================

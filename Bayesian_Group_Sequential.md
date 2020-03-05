@@ -266,6 +266,12 @@ Practical Aspects of ADs
 
 Conclusion
 ========================================================
+- Adaptive designs are more flexible design compared to traditional fixed-sample design
+- On average, group sequential deqigns require less participants when used proporly
+- Sample size re-estimation is theoretically possible if you have pre-specifed
+- Bayesian clinical trial can be a solution when studying very rare design
+- Reporting adaptive designs is hard
+- Talk to somebody experienced when desiging adaptive studies.
 
 
 Quiz

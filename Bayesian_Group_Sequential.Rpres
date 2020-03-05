@@ -1,7 +1,7 @@
 { (Some) Bayesian Clinical Trial, Group Sequential} \(\subset\) { Adaptive Designs}
 ========================================================
-author: 
-date: 
+author: Boyi Guo
+date: March 5th, 2020
 autosize: true
 
 Outline
@@ -18,51 +18,40 @@ Outline
 Adaptive Design
 ========================================================
 - What is adaptive design?
-
-  <!--- Add the flow chart from Adaptive Design Paper here-->
-
-  - results from interim data analyses are used to modify the ongoing trial, without undermining its integrity or validity 
-  
-  <!--- definiing characteristic of all ADs--->
-  
   - pre-specifed changes can be made based on analyses of accumulating data whilst maintaining the _validity_ and _integrity_ of the trial
+
+    <div align="center">
+    <img src="AD_plot1.png" width=800 height=400>
+    </div>
+
+<!--- the defining characteristics of adaptive design is --->
+
+<!--- Comparing to the "normal" fixed design, which, the  ---->
+
+<!--- no unplanned ad hoc modifications --->
   
-  <!--- Possible expantion to definition of validity and integrity--->
-  <!--- Merge the two bullet points --->
-
-
-  - __no unplanned ad hoc modifications__
-
-Adaptive Design
-========================================================  
-- why we want to use adaptive design?
+ Adaptive Design
+======================================================== 
+- Why we want to use adaptive design?
+ - _flexibility_ \(\Rightarrow\) efficient trials
   
   <!--- the main premise for adaptive design is that increase trials' flexibility and hence make the trial more efficient (less patient, faster results)--->
-  
-  - __Flexibility__ \(\Rightarrow\) efficient trials
+
 - When to use adaptive design?
-  - Used in Phase I - Phase III
+  - used in Phase I - Phase III
+
 
 Adaptive Design
 ========================================================  
   
-- What for? Include but are not limited to
-  - refinning the sample size 
-  
-  <!--- Add specific desigs here, and re-ordering the items --->
-  
-  - Abandoning treatments or doeses
-  - Changing the allocation ratio of patients to trail arms
+- What adaptive design can do?
+  - abandoning treatments or doses ( _CRM_, _E-WOC_, _multi-arm multi-stage_, _adaptive dose-ranging_ )
+  - changing the allocation ratio of patients to trail arms ( _adpative randomization_)
+  - rapid transitioning between phases ( _seamless phase I/II_, _seamless phase II/III_ )
+  - stopping the whole trial at an early stage for success or lack of efficacy ( __group sequential__ )
+  - refinning the sample size ( _sample size re-estimation_ )
   - identifying patients most likely to benefit and focusing recruitment efforts
-on them
-  - stopping the whole trial at an early stage for success or lack of efficacy
-  - rapid transitioning between phases [Seamless phase I/II, Seamless phase II/III]
-  
-  <!---
-    - What design we talked about are adaptive desig?
-    - CRM
-    - E-WOC
-  --->
+on them ( _population enrichment_ )
 
   <!--- Mention: tt is possible to use a combination of the technique in one trial--->
 
@@ -70,6 +59,9 @@ on them
 
 Group Sequential Design
 ========================================================
+- What is group sequential design
+
+- Some charateristics
  <!--- In relationship to Adaptive design: -->
  - Often used in Phase III, placebo-controled trial
  - Extension from the the sequential design
@@ -127,20 +119,23 @@ Issues of Adaptive Design
   
   <!--- e.g.the interium analysis for block design to check balance--->
   
-  - Explaining the heterogeneity between the stages of an AD trial
+  - explaining the heterogeneity between the stages of an AD trial
 
-- statistical issues
-  - biased estimation using navie methods for fixed design trials
+- Statistical issues
+  - biased estimation for effect size
 
   <!--- early stop fior futility, biased upwards--->
   <!--- add Table 2 in adaptive design here--->
 
   - incorrect converage for confidence interval
   - p-value
-  - Type I error rate
-  - Multiple hypothesis testing: also report frequentist charactereistics
-  - Bayesina statistics
+  - type I error rate
+  - multiple hypothesis testing
 
+<!--- Transitioning sentence
+- Possible solution
+  - Bayesina statistics: also report frequentist charactereistics
+--->
 
 Bayesian Clinical Trial
 ========================================================

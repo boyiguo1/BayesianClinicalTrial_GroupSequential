@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Intro to _Adaptive Design (AD)_
 - Intro to _Group Sequential Design_
-  - Sampe Size Re-estimation
+  - Sample Size Re-estimation
 - Intro to _Bayesian Clinical Trial_
   - Bayesian Clinical Trial for Very Rare Disease
 - Reporting AD
@@ -34,7 +34,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <!--- no unplanned ad hoc modifications --->
   
 ## Adaptive Design
-- Why we want to use adaptive design?
+- Why do we want to use adaptive design?
  - _flexibility_ \(\Rightarrow\) efficient trials
   
   <!--- the main premise for adaptive design is that increase trials' flexibility and hence make the trial more efficient (less patient, faster results)--->

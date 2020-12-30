@@ -1,8 +1,11 @@
 ---
-title: "{ (Some) Bayesian Clinical Trial, Group Sequential} $\\subset$ { Adaptive Designs} "
+title: '{ (Some) Bayesian Clinical Trial, Group Sequential} $\subset$ { Adaptive Designs} '
 author: "Boyi Guo"
 date: "3/5/2020"
-output: beamer_presentation
+output:
+  beamer_presentation: default
+  slidy_presentation: default
+  ioslides_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Intro to _Adaptive Design (AD)_
 - Intro to _Group Sequential Design_
-  - Sampe Size Re-estimation
+  - Same Size Re-estimation
 - Intro to _Bayesian Clinical Trial_
   - Bayesian Clinical Trial for Very Rare Disease
 - Reporting AD
@@ -102,7 +105,7 @@ on them ( _population enrichment_ )
  - focus on studying efficacy
  
 - Where is the catch
-  - Overall sample size is larger than that of a fixed design controling effect size, type I error and power
+  - Overall sample size is larger than that of a fixed design controlling effect size, type I error and power
   - Useless when observed effect size is smaller than that assumed in the initial study design
 
 
@@ -232,11 +235,11 @@ on them ( _population enrichment_ )
 
 ## Conclusion
 - Adaptive designs are more flexible design compared to traditional fixed-sample design
-- On average, group sequential deqigns require less participants when used proporly
-- Sample size re-estimation is theoretically possible if you have pre-specifed
+- On average, group sequential designs require less participants when used properly
+- Sample size re-estimation is theoretically possible if you have pre-specified
 - Bayesian clinical trial can be a solution when studying very rare design
 - Reporting adaptive designs is hard
-- Talk to somebody experienced when desiging adaptive studies.
+- Talk to somebody experienced when designing adaptive studies.
 
 
 ## Quiz
@@ -248,6 +251,6 @@ on them ( _population enrichment_ )
 
 Definitions:
 
-  - _Integrity_: "Integrity means ensuring that trial data and processes have not been compromised, e.g. minimising information leakage at the interim analyses."
+  - _Integrity_: "Integrity means ensuring that trial data and processes have not been compromised, e.g. minimizing information leakage at the interim analyses."
   
   - _Validity_: "Validity implies there is an assurance that the trial answers the original research questions appropriately, e.g. by using methods that provide accurate estimates of treatment effects and correct p values and confidence intervals (CIs) for the treatment comparisons."
